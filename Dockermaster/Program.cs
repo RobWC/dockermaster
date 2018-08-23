@@ -35,6 +35,7 @@ namespace Dockermaster
 
         static async Task StartContainer(DockerClient client)
         {
+            
             var newUUID = System.Guid.NewGuid();
             Console.WriteLine("Created ID {0}", newUUID);
             Char[] buffer;
