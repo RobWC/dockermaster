@@ -1,0 +1,9 @@
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/bin/Debug/netcoreapp1.1/Dockermaster.deps.json
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/bin/Debug/netcoreapp1.1/Dockermaster.runtimeconfig.json
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/bin/Debug/netcoreapp1.1/Dockermaster.runtimeconfig.dev.json
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/bin/Debug/netcoreapp1.1/Dockermaster.dll
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/bin/Debug/netcoreapp1.1/Dockermaster.pdb
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/obj/Debug/netcoreapp1.1/Dockermaster.csproj.CoreCompileInputs.cache
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/obj/Debug/netcoreapp1.1/Dockermaster.AssemblyInfo.cs
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/obj/Debug/netcoreapp1.1/Dockermaster.dll
+/home/rcameron/RiderProjects/Dockerfun/Dockermaster/obj/Debug/netcoreapp1.1/Dockermaster.pdb
