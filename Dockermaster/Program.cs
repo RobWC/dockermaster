@@ -22,7 +22,12 @@ namespace Dockermaster
                 
            
                 ListContainers(client).Wait();
-                StartContainer(client).Wait();
+
+                for (var i = 0; i < 10; i++)
+                {
+                    StartContainer(client).Wait();    
+                }
+                
 
             }
             catch (Exception ex)
@@ -50,18 +55,6 @@ namespace Dockermaster
                     Tty = true,
                     HostConfig = new HostConfig
                     {
-                        PortBindings = new Dictionary<string, IList<PortBinding>>
-                        {
-                            { 
-                                "80/tcp", 
-                                new List<PortBinding> { 
-                                    new PortBinding
-                                    {
-                                        HostPort = "8888"
-                                    } 
-                                }
-                            }
-                        }
                     }
                 });
             // Starting the container ...
